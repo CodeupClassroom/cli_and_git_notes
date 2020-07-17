@@ -1,0 +1,40 @@
+
+
+
+pwd = print working directory
+ls = list files
+cd = change directory
+cd .. = goes up a directory from your pwd
+cd folder_name = navigates into sub-folder from your working directory
+
+if your pwd is home, cd Desktop navigates you to Desktop
+~ is the same as your home folder
+
+ctrl + c to exit a process or unterminated string on the terminal (really helpful!)
+touch
+man ls     (to get the manual page on ls)
+open filename.txt (uses the default application of Mac to open that type of file)
+code filefile.txt (open up filename.txt in VS Code)
+code .   (opens up the entire current working directory in VS Code)
+mkdir directory_name
+
+
+
+mv filetomove.txt destination
+
+If we have hello.txt in Desktop
+mv ~/Desktop/hello.txt ~/Documents/    (moves the hello.txt file from Desktop to Documents folder)
+
+mv original_path destination_path  (generic form)
+mv relative_path new_relative path
+
+copying works exactly like move
+cp original_path destination_path
+
+renaming something on the commandline
+mv original_path_name new_name
+
+
+rm filename.txt
+
+cat filename.txt (to see the contents)

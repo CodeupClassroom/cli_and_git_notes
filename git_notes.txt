@@ -89,6 +89,7 @@ git add filename.txt
 
 git commit -m "your commit message goes in quotes"
 
+git diff filename.txt (shows you the changes of that file name)
 
 
 Git, as a version control system is:

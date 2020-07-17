@@ -38,3 +38,5 @@ mv original_path_name new_name
 rm filename.txt
 
 cat filename.txt (to see the contents)
+
+man cat (check the manual page for cat)

@@ -1,0 +1,102 @@
+Git is a version control system
+
+What is version control?
+keeping differents of versions of things... under control
+
+resume.pdf
+resumeFINAL.pdf
+resumeFINALmondayForCOMPANY.pdf
+resumeFINALFINAL.pdf
+
+is a system - kind ad hoc
+
+Operating System has a version control system
+if you try to copy a file into a folder w/ the same name as an existing file
+resume(1).pdf
+resume(2).pdf
+
+Google Docs or Microsoft Word have version control built in
+- shows changes over time
+
+Photoshop and similar tools have their own versioning system
+
+What about tracking changes on source code? Or code that's statistical analysis?
+We need a version control system built for code
+
+git is a version control system invented to solve version control problems for linux operating system
+
+version 1.0
+version 2.0
+version 3.0
+Mac OS 10.14.02
+think of versions as snapshots like a saved game
+
+with git, we're making snapshots of changes in code, tracking at a per-line, per-file basis
+big idea => keep the original filenames, no analysis_FINAL.py, only analysis.py
+
+version 1.0
+version 2.0 (but what if we accidentally have a bug or a problem in version 2.)
+checkout version 1..
+version 2.1 with the fix
+
+semantic versioning is a pattern to identify pieces of a version number
+major_version.minor_version.patch.bugfix
+
+Mac OS 10.14.02
+
+Python 2.4 
+Python 3.7
+
+
+
+git repository is a regular ol' folder that is tracked by git.
+
+mkdir example/
+cd example
+git init (one time only)
+
+once you have a local repo
+you can git what files to track or not
+per file, you can add which changes (staging)
+commiting means making a snapshot
+pushing => 
+
+
+git init (one time in a folder to enable git)
+tell git what files to track:
+we do that with "git add"
+then once we're ready to make a commit (snapshot),
+we commit any added files.
+
+
+git log (shows the history of commits)
+
+
+
+git init (one time per folder) turns a folder into a git repo
+git status
+git add filename.txt (to staging a file)
+git status
+git commit (to create the snapshot)
+git status
+git log (shows the history of commits)
+
+git diff (diff means changes. Green is additions and red is deleted lines)
+You can do `git diff` before commiting to see what you're about to commit
+
+
+git add filename.txt
+
+git commit -m "your commit message goes in quotes"
+
+
+
+Git, as a version control system is:
+1. Permanent Record (like a financial ledger) (we use this alot to make backups)
+2. Time Machine 
+3. Parallel universes (branches). Out of scope for the 1st day of git, but there's a resource in the appendix
+
+
+Repos => git enabled folders
+local repo => repo on your laptop
+remote repo => a repo on another computer or "in the cloud"

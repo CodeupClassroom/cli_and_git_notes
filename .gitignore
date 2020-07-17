@@ -1,0 +1,5 @@
+sunshine/
+.DS_Store
+
+# env.py has super secret connection detail
+env.py
